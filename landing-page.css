@@ -5,7 +5,10 @@
 
 header{
     background-color: #1f2937;
-    padding: 1em 13em;
+    display: table; 
+    margin:0px auto 0px auto;
+    padding:100px 250px 100px 250px;
+    
     
 
 }
@@ -104,4 +107,52 @@ main{
     height: 160px; 
 }
 /*Quote*/
+.quote{
+  background-color: #e5e7eb; 
+  display: table; 
+  margin:0px auto 0px auto;
+  padding:100px 250px 100px 250px;
+  text-align: center;
+}
+em{
+    font-weight: 300;
+    font-size: 36px;
+    color:#1f2937;
+    display: flex;
+    justify-content: center;
+}
 
+p{
+    display: flex;
+    justify-content:center;
+}
+/*sign-up*/
+.sign-up{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color:#fff;
+    width: 25%;
+    padding:15px;
+    margin: 10px;
+    border-radius: 50px;
+}
+.container button{
+    border: 2px solid #fff;
+    color: #fff;
+}
+/*footer*/
+footer{
+    display:flex;
+    justify-content: center;
+    background-color:#1f2937;
+    color:#fff;
+    padding:25px;
+}
